@@ -2,6 +2,9 @@
 <head>
 <title>Первая страница</title>
 <style>
+body {
+	padding:0; margin:0;
+}
 h1 {
 	text-align:center;
 }
@@ -37,9 +40,64 @@ div {
 	border-radius:10px;
 	color:#E0FFFF;
 }
+button.nav {
+	border-radius:20px;
+	border-color:#000;
+	padding:10px 20px;
+	background-color:#AA0023;
+	color:#fff;
+}
+
+ul.nav {
+	float:right;
+}
+
+ul.nav>li {
+	display:inline-block;
+	padding:60px 20px;
+}
+
+ul.nav>li.b {
+
+}
+
+img.nav {
+	float:left;
+}
+
+header {
+	height:200px;
+	background-color:#AAA;
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+	border: 2px solid black;
+	padding:10px;
+}
+
+a:hover {
+	background-color:#888;
+	color:#fff;
+}
 </style>
 </head>
 <body>
+
+<header>
+<img src="3-removebg-preview.png" height="90%" class="nav">
+<nav>
+<ul class="nav">
+	<li><a href="#">Главная</a></li>
+	<li><a href="#">Контакты</a></li>
+	<li>Интересное</li>
+	<li><a href="#">Всякое</a></li>
+	<li class="b"><button onclick="hi()" class="nav">Войти</button></li>
+</ul>
+</nav>
+</header>
+
  <div class="d">
 	<h1 class="h">Просто космос!</h1>
 	<p class="p">Косми́ческое простра́нство, ко́смос (др.-греч. κόσμος — «упорядоченность», «порядок») — относительно пустые участки Вселенной, которые лежат вне границ атмосфер небесных тел. Космос не является абсолютно пустым пространством: в нём есть, хотя и с очень низкой плотностью, межзвёздное вещество (преимущественно молекулы водорода), кислород в малых количествах (остаток после взрыва звезды), космические лучи и электромагнитное излучение, а также гипотетическая тёмная материя.</p>
@@ -60,6 +118,10 @@ div {
  <script>
 	function GGG() {
 	alert('Привет!!!')
+	}
+	function hi() {
+	name = prompt("Как вас зовут?","Женя")
+	alert("Привет, " + name)
 	}
  </script>
  
