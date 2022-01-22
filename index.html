@@ -81,6 +81,38 @@ a:hover {
 	background-color:#888;
 	color:#fff;
 }
+
+table {
+	border: 1px solid #000;
+	border-collapse:collapse;
+	margin:30px;
+	background:linear-gradient(to top right, #000080, #FF00FF, #7FFFD4, #F0FFFF)
+}
+table th, td {
+	border: 1px solid #000;
+	min-width:100px;
+	text-align: center;
+	padding:10px;
+}
+
+table th {
+	background:linear-gradient(to bottom right, #6A5ACD, #B0E0E6)
+}
+
+td.shar {
+	background:
+      radial-gradient(circle at 50% 0,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        rgba(0,0,255,.5),
+        rgba(0,0,255,0) 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(0,255,0,.5),
+        rgba(0,255,0,0) 70.71%) beige;
+	width:300px;
+	height:300px;
+}
 </style>
 </head>
 <body>
@@ -115,6 +147,29 @@ a:hover {
 	
  </div>
  
+ <div>
+ <table>
+ <tr>
+	<th colspan="4">Заголовок таблицы</th>
+ </tr>
+ <tr>
+	<td rowspan="3" valign="top" class="shar">Боковой заголовок</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
+ </tr>
+ <tr>
+	<td>4</td>
+	<td>5</td>
+	<td>6</td>
+ </tr>
+ <tr>
+	<td>7</td>
+	<td>8</td>
+	<td>9</td>
+ </tr>
+ </table>
+ </div>
  <script>
 	function GGG() {
 	alert('Привет!!!')
