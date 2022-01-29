@@ -1,0 +1,111 @@
+body {
+	padding:0; margin:0;
+}
+h1 {
+	text-align:center;
+}
+.h {
+	color:blue;	
+}
+.p {
+	padding:10px;
+	border: 2px solid blue;
+	border-radius:10px;
+}
+img {
+	margin: 10px 5%;
+}
+div {
+	margin:5px;
+	border:2px #000 solid;
+	border-radius:20px;
+	padding:5px;
+}
+.d {
+	background-color:#B0C4DE
+}
+.d2 {
+	background-color:#2F4F4F
+}
+.h2 {
+	color:#FAFAD2;
+}
+.p2 {
+	padding:10px;
+	border: 2px solid #FAFAD2;
+	border-radius:10px;
+	color:#E0FFFF;
+}
+button.nav {
+	border-radius:20px;
+	border-color:#000;
+	padding:10px 20px;
+	background-color:#AA0023;
+	color:#fff;
+}
+
+ul.nav {
+	float:right;
+}
+
+ul.nav>li {
+	display:inline-block;
+	padding:60px 20px;
+}
+
+ul.nav>li.b {
+
+}
+
+img.nav {
+	float:left;
+}
+
+header {
+	height:200px;
+	background-color:#AAA;
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+	border: 2px solid black;
+	padding:10px;
+}
+
+a:hover {
+	background-color:#888;
+	color:#fff;
+}
+
+table {
+	border: 1px solid #000;
+	border-collapse:collapse;
+	margin:30px;
+	background:linear-gradient(to top right, #000080, #FF00FF, #7FFFD4, #F0FFFF)
+}
+table th, td {
+	border: 1px solid #000;
+	min-width:100px;
+	text-align: center;
+	padding:10px;
+}
+
+table th {
+	background:linear-gradient(to bottom right, #6A5ACD, #B0E0E6)
+}
+
+td.shar {
+	background:
+      radial-gradient(circle at 50% 0,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        rgba(0,0,255,.5),
+        rgba(0,0,255,0) 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(0,255,0,.5),
+        rgba(0,255,0,0) 70.71%) beige;
+	width:300px;
+	height:300px;
+}
